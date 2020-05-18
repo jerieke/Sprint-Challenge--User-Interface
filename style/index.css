@@ -152,6 +152,14 @@ nav{
     align-items: center;
     height: 100%;
 }
+@media(max-width: 500px){
+    nav{
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+        background-color: red;
+    }
+}
 a{
     text-decoration: none;
     color: black;
