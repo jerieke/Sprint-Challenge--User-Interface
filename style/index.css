@@ -52,7 +52,7 @@ table {
 }
 
 html, body {
-    height: 100%;
+    width: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -67,7 +67,7 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -267,16 +267,17 @@ img.jumbopic{
         display: flex;
         flex-direction: column;
         width: 100%;
-        margin-left: 150px;
+    
 
     }
     section.top-content{
         display: flex;
         flex-direction: column;
-        text-align: center;
         justify-content: center;
         align-items: center;
-        height: 400px;
+        flex-wrap: nowrap;
+        height:600px;
+        width: 100%;
     }
     div.boxes{
         display: flex;
@@ -289,23 +290,27 @@ img.jumbopic{
     section.bottom-content{
         display: flex;
         flex-direction: column;
-        padding: 0% 120px;
+        width: 100%;
     }
     div.text-container{
         display: flex;
         flex-direction: column;
-        padding: 0px 50px;
+        width: 100%;
+        height:300px;
 
     }
     h2{
         text-align: center;
     }
     footer.nav{
+        display: flex;
+        flex-direction: column;
         width: 100%;
+        align-items: center;
     }
     p{
         width: 100%;
-        height: 145px;
+        height: 300px;
         padding: 0px 5px;
     }
     h2{
@@ -319,14 +324,23 @@ img.jumbopic{
     }
     
     img.jumbopic{
-        margin-left: 160px;
+        width: 100%;
         
+    }
+    .jumbopic{
+        width: 100%;
     }
     .footernav{
         margin: none;
-        width: 200px;
+        width: 100%;
         text-align: center;
         
+    }
+    nav.footernav{
+        margin: none;
+    }
+    .top-content.container{
+        width: 80%;
     }
 }
 /*
