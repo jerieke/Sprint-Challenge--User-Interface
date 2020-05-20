@@ -276,7 +276,7 @@ img.jumbopic{
         justify-content: center;
         align-items: center;
         flex-wrap: nowrap;
-        height:600px;
+        height:300px;
         width: 100%;
     }
     div.boxes{
@@ -291,12 +291,13 @@ img.jumbopic{
         display: flex;
         flex-direction: column;
         width: 100%;
+        align-items: center;
     }
     div.text-container{
         display: flex;
         flex-direction: column;
-        width: 100%;
-        height:300px;
+        height:150px;
+        width: 75%;
 
     }
     h2{
@@ -339,7 +340,7 @@ img.jumbopic{
     nav.footernav{
         margin: none;
     }
-    .top-content.container{
+    .top-content .text-container{
         width: 80%;
     }
 }
